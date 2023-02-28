@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(114, 205, 241);
+    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 100px;
+    padding: 80px;
+    margin: 10px;
+}
+
+.Datos{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 5px double #2ecaca85;
+}
+
+h1{
+    text-align: center;
+    color: #131311d8;
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    margin: 10px 0px 30px 0px;
+    background-color: #0cf51f41 ;
+}
+
+#barra1{
+    width: 1175px;
+    height: 10px;
+    background-image: linear-gradient(90deg, blue, red, orange);
+    margin: 2px 0px 30px 0px;
+}
+
+#barra2{
+    width: 1175px;
+    height: 10px;
+    background-image: linear-gradient(90deg, blue, red, orange);
+    margin: 15px 0px 15px 0px;
+}
+
+#barra3{
+    width: 540px;
+    height: 7px;
+    background-image: linear-gradient(90deg, blue, red, orange);
+    margin: 15px 0px 15px 0px;
+}
+
+h3{
+    text-decoration: underline red;
+}
+
+#idioma1{
+    text-decoration: none;
+}
+
+
+#infocon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #080303;
+}
+
+
+#imagen-CV{
+    border: solid #fcf8f8da;
+    height: 300px;
+    vertical-align: middle;
+    margin: 0px 25px;
+}
+
+.Hard-Skills{
+    column-count: 3;
+    column-gap: 2px;
+    padding-inline-start: 0;
+}
+
+
+.outer-1,.outer-2,.outer-3{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(241, 237, 237, 0.932),
+                -6px -6px 10px -1px rgba(248, 245, 245, 0.7)
+}
+
+
+#number-3,#number-2,#number-1{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(247, 9, 9);
+    text-align: center;
+}
